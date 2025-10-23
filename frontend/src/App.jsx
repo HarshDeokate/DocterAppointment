@@ -30,6 +30,7 @@ function App() {
         <Route path='/my-appointments' element={<MyAppointments />} />
         <Route path='/appointment/:docId' element={<Appointment />} />
         <Route path='/receipt/:id' element={<Receipt/>}/>
+        <Route path="*" element={<h1>404 - Page Not Found</h1>} />
       </Routes>
       <Footer />
     </div>
